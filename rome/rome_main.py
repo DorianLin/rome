@@ -173,5 +173,5 @@ def get_context_templates(model, tok, length_params):
         ]
 
         print(f"Cached context templates {CONTEXT_TEMPLATES_CACHE}")
-
+    print("Using cached context templates:", CONTEXT_TEMPLATES_CACHE)
     return CONTEXT_TEMPLATES_CACHE
